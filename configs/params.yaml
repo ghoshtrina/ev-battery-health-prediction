@@ -1,0 +1,10 @@
+random_seed: 42
+split:
+  test_size: 0.2
+  val_size: 0.1
+  stratify_by_bucket: false
+model:
+  type: random_forest
+  n_estimators: 300
+  max_depth: null
+  n_jobs: -1

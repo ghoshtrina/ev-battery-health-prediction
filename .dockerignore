@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+
+# Local runs / artifacts / mlflow store
+mlruns/
+artifacts/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Jupyter Notebooks
+notebooks/

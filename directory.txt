@@ -1,0 +1,23 @@
+EV-Battery-Health-Prediction/
+├── artifacts/              # trained model + feature names
+│   ├── feature_names.txt
+│   └── random_forest.joblib
+├── configs/                # config files
+│   ├── params.yaml
+│   └── schema.yaml
+├── data/                   # raw/interim/processed
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── mlruns/                 # MLflow tracking
+├── src/                    # all project code
+│   ├── data/
+│   ├── models/
+│   ├── pipelines/
+│   ├── serve/
+│   └── utils/
+├── .dockerignore
+├── .gitignore
+├── Dockerfile              # capitalized
+├── README.md
+├── requirements.txt
