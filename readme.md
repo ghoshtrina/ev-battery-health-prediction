@@ -1,5 +1,9 @@
 # EV Battery Health Prediction
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![MLflow](https://img.shields.io/badge/MLflow-Tracking-orange)
+![Docker](https://img.shields.io/badge/Docker-Ready-brightgreen)
+
 **Goal:** Predict the State of Health (SOH) of EV batteries (a continuous value) and classify each prediction into health buckets:
 - `Healthy (≥85%)`
 - `Moderate (70–84%)`
@@ -213,4 +217,4 @@ curl -X POST http://127.0.0.1:8000/predict \
 **Trina Ghosh**
 
 - **LinkedIn:** https://linkedin.com/in/ghoshtrina
-- **Portfolio:** http://ghoshtrina.com
+- **Portfolio:** http://ghoshtrina.com# ev-battery-health-prediction
