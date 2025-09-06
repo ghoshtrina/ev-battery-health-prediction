@@ -108,7 +108,7 @@ Replace `<RUN_ID>` with the MLflow run ID shown in the UI.
 python scripts/infer_from_run.py <RUN_ID>
 ```
 ### MLflow UI Example
-![MLflow UI](artifacts/images/mlflow_ui_metrics.png)
+![MLflow UI](assets/images/mlflow_ui_metrics.png)
 
 ---
 
@@ -159,7 +159,7 @@ curl -X POST http://127.0.0.1:8000/predict \
 ```
 
 ### FastAPI Docs Example Prediction Response
-![Prediction Example](artifacts/images/fast_api_real_time_prediction.png)
+![Prediction Example](assets/images/fast_api_real_time_prediction.png)
 
 ---
 
